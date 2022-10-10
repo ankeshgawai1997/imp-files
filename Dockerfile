@@ -1,3 +1,3 @@
 FROM tomcat
-COPY gameoflife.war /usr/local/tomcat/webapps
+COPY /mnt/gameoflife.war /usr/local/tomcat/webapps
 EXPOSE 8080
